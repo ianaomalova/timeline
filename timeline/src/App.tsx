@@ -1,11 +1,5 @@
-import { FC } from 'react';
-
-const App: FC = () => {
-  return (
-    <div className="app">
-      <h1>Тестовое задание</h1>
-    </div>
-  );
+const App = () => {
+  return <h1>Hello, React + Webpack!</h1>;
 };
 
 export default App;
